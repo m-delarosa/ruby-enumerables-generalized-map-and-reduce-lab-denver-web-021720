@@ -5,8 +5,9 @@ def map(source_array)
   i = 0
 
   while i < source_array.length do
-  
+
   i += 1
   end
 
+  new
 end
