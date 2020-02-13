@@ -12,5 +12,6 @@ def map(source_array)
   new
 end
 
-def reduce (array, starting_point = 0)
+def reduce (array, starting_point = nil)
+  
 end
