@@ -20,5 +20,8 @@ def reduce (array, starting_point = nil)
     num1 = array[0]
     i = 1
   end
-  
+
+  while i < array.length
+    yield(num1, array[i])
+  end
 end
